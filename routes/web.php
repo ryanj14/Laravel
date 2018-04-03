@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/whatever', function () {
     return "Who cares?";
 });
+
+Route::get('contact', 'PagesController@contact');
