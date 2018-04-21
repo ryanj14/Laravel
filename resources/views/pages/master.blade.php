@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>@yield('title', 'SwipeRightToApply: Apply instantly to jobs nearby')</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,13 +79,19 @@
 
     <div class="content">
         <div class="title m-b-md">
-            PickerToApply
+            @yield('header')
         </div>
+
+        <div style="color:black;font-weight:800; margin:5%;">
+            @yield('data')
+        </div>
+
 
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>
             <a href="https://laracasts.com">Laracasts</a>
             <a href="https://laravel-news.com">News</a>
+            <a href="/post/1">Our Job Postings</a>
             <a href="/profile">Company Profile</a>
             <a href="contact">Contact Us</a>
             <a href="About">About</a>
