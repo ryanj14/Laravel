@@ -20,9 +20,6 @@
             height: 100vh;
             margin: 0;
         }
-        img{
-            height: 300px;
-        }
 
         .full-height {
             height: 100vh;
@@ -82,25 +79,16 @@
 
     <div class="content">
         <div class="title m-b-md">
-            About Us
+            {{$companyName }} is hiring for position of {{$jobTitle}}
         </div>
-
-        <div class="dark">
-            <figure>
-                <img class="about" src="/images/a.png" alt="doge">
-                <figcaption>Doge love being a doge</figcaption>
-            </figure>
-
-            <p style="text-align: left; padding-left: 20%; padding-right: 20%; padding-top: 20%">Doge is typing hello</p>
-
-        </div>
+        <div style="...">This does something</div>
 
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>
             <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
+            <a href="/">Home</a>
+            <a href="contact">Contact Us</a>
+            <a href="About">About</a>
         </div>
     </div>
 </div>
